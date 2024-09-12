@@ -1,0 +1,154 @@
+*{
+	margin:0;
+	text-align: justify;
+	font-family: arial, sans-serif;
+}
+.nomesite{
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	font-family: Javanese Text;
+}
+nav{
+	background-color:#a8fdc0;
+	height: 100px;
+	/*position: fixed;*/
+	top:0;
+	width: 100%;
+}
+#logo{
+	float: left;
+	height: 85%;
+	margin-left: 1%;
+	margin-top: .5%;
+}
+.corletra{
+	color: #05572e;
+	font-family: arial;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align:center;
+}
+.margemintroducao{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.principal{
+	width: 50%;
+	float: left;
+}
+
+.principal > .corletra {
+	font-size: 24px;
+	margin:25px;
+	background-color: #a8fdc0;
+	text-align: center;
+	
+	
+}
+.lateral{
+	width: 47%;
+	float: left;
+    padding-left: 3%;
+	margin-top: 25px;
+}
+.espacoparagrafo {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.espacoparagrafo > .espacosubtitulo {
+	font-size: 20px;
+}
+
+.lateral > table {
+	width: 100%;
+}
+table, tr, td{
+	border: 1px solid #000000;
+	border-collapse: collapse;
+}
+th{
+	color: #05572e;
+	padding: 12px;
+	border: 1px solid #000000;
+	border-collapse: collapse;
+}
+#texto-table{
+	padding-left:3%;
+	padding-right:3%;
+}
+.cor-tabela{
+	background-color: #a8fdc0;
+}
+.rodape{
+	background-color: #05572e;
+}
+.content{
+	margin-top: 3%;
+	background-color: #FFF;
+}
+.rodape{
+	padding: 20px;
+    color: white;
+    text-align: center;
+	margin-top: 20px;
+	font-size: 15px;
+}
+.rodape p{
+	text-align: center;
+}
+nav ul{
+	list-style-type:none;
+	overflow:hidden;
+	background-color: #05572e;
+	position: relative;
+	width: 100%;
+	margin-top: -15px;
+}
+nav li{float:left;}
+nav li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+nav li:hover{
+	font-size:120%;
+}
+
+.linhadotempo > h1{
+	text-align: center;
+	color:#05572e;
+	font-size:30px;
+	text-decoration: underline;
+}
+.linhadotempo > h2{
+	background-color: #a8fdc0;
+	color: #05572e;
+	border-radius: 25px;
+	text-align: center;
+}
+.linhadotempo > p{
+	text-align: center; 
+}
+.linhadotempo{
+	margin-left: 10%;
+    margin-right: 10%;
+}
+.videos a{
+	text-decoration: none;
+	color:#05572e;
+
+}
+.videos a:hover{
+	color: #a8fdc0;
+}
+.videos{
+	margin-left: 10%;
+    margin-right: 10%;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+}
